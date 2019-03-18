@@ -47,8 +47,7 @@ var daenerys = new character('Daenerys Targaryen', 'alive')
 var cersei = new character('Cersei Lannister', 'alive')
 var jon = new character('Jon Snow', 'alive')
 
-
-houses.lannisterHouse.newEnemy('Jon Snow')
-jon.kill()
-houses.targaryenHouse.houseInfo()
-houses.starkHouse.houseInfo()
+houses.newEnemy.lannisterHouse('Jon Snow');
+jon.kill();
+houses.targaryenHouse.houseInfo();
+houses.starkHouse.houseInfo();
