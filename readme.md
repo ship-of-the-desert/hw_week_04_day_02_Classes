@@ -1,6 +1,6 @@
 # Game of Thrones Wiki
 
-![](https://mtv.mtvnimages.com/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2015/06/badood-1433860090.gif?quality=.8&height=275&width=500)
+![](https://media.giphy.com/media/vvcByGBwbq1X4QjDae/giphy.gif)
 
 It's almost GoT's final season, and it's getting harder to keep track of who belongs to which house and who's dead or alive. Help GoT fans by creating an informative list of the main noble houses of Westeros, and three characters from the show
 
