@@ -32,9 +32,9 @@ Create a Character class that contains:
 ### Activity:
 
 - Create 3 different houses using the `House` class.
-- Create 'Daenerys Targaryen', 'Cersei Lannister', and 'John Snow' using the `Character` class.
-- Add 'John Snow' to Cersei Lannister's enemy list using the `newEnemy()` method.
-- Kill 'John Snow'.
+- Create 'Daenerys Targaryen', 'Cersei Lannister', and 'Jon Snow' using the `Character` class.
+- Add 'Jon Snow' to Cersei Lannister's enemy list using the `newEnemy()` method.
+- Kill 'Jon Snow'.
 - Display the house info of 'Daenerys Targaryen'.
 - Display the house info of 'House Stark'.
 
