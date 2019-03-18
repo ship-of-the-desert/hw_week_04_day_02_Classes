@@ -19,11 +19,6 @@ newEnemy(name)//that adds a new enemy to the house.
     console.log(this.enemies);
 } 
 }
-//this.diet.forEach(food => { console.log(`${this.name} ate ${food}`); });
-var Targaryen = new House ("Targaryen","A red three-headed dragon on a black field.","Fire and Blood", ["Lannister","Bolton"])
-var  Lannister = new House ("Lannister","A golden lion rampant on a crimson field","A Lannister Always Pays His Debts",["Sahar","Fahad"])
-var Stark = new House ("Stark","A grey direwolf on a white field","Winter Is Coming",["Ali","Turki"])
-
 
 class Characters extends House{
 constructor(name,status,houseName, sigil, words,enemies){
@@ -39,6 +34,25 @@ revive(){
 }
 }
 
+var Targaryen = new House ("Targaryen","A red three-headed dragon on a black field.","Fire and Blood", ["Lannister","Bolton"])
+var  Lannister = new House ("Lannister","A golden lion rampant on a crimson field","A Lannister Always Pays His Debts",["Sahar","Fahad"])
+var Stark = new House ("Stark","A grey direwolf on a white field","Winter Is Coming",["Ali","Turki"])
+
 var Daenerys = new Characters ("Daenerys","Alive","Targaryen","A red three-headed dragon on a black field.","Fire and Blood",["Lannister","Bolton"])
 var Cersei = new Characters ("Cersei","Alive","Lannister","A golden lion rampant on a crimson field","A Lannister Always Pays His Debts",["Sahar","Fahad"])
 var Arya = new Characters ("Arya","dead","Stark","A grey direwolf on a white field","Winter Is Coming",["Ali","Turki"])
+
+Targaryen.houseInfo()
+Cersei.newEnemy(Arya.name)
+//Cersei.newEnemy(Arya)
+
+Arya.status
+Arya.revive()
+Arya.status
+
+Cersei.status
+Cersei.kill()
+Cersei.status
+
+Daenerys.houseInfo()
+Stark.houseInfo()
