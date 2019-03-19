@@ -1,3 +1,4 @@
+console.log("JS linked")
 //Noble Houses
 class House {
   constructor(houseName, sigil, words) {
@@ -12,7 +13,6 @@ class House {
      Sigil: ${this.sigil}
      Words: ${this.words}`
     );
-    console.log(this.enemies);
   }
   newEnemy(name) {
     //that adds a new enemy to the house.
@@ -64,9 +64,10 @@ char2.newEnemy(char3.name);
 
 //Kill 'Jon Snow'.
 char3.kill();
+//console.log(char3.status);
 
 //Display the house info of 'Daenerys Targaryen'.
-house1.char1.houseInfo();
+char1.houseInfo("House Targaryen","A red three-headed dragon","Fire and Blood","Daenerys Targaryen");//??
 
 //Display the house info of 'House Stark'.
 house3.houseInfo();
